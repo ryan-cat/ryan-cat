@@ -1,5 +1,5 @@
 import Section from './Section';
-import WorkPlace from './WorkPlace';
+import SplitView from './SplitView';
 
 const yearsExperience = () => {
   const diff = Math.abs(new Date() - new Date(2017, 10, 1));
@@ -22,7 +22,7 @@ const Experience = () => {
   return (
     <Section title="Experience" style={{ backgroundColor: 'rgba(237, 242, 247)' }}>
       {workItems.map((x) => (
-        <WorkPlace {...x} key={x.place} />
+        <SplitView image={x.image} title={x.place} subtitle={x.years} info={x.info} body={x.description} key={x.place} />
       ))}
     </Section>
   );
