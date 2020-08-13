@@ -9,7 +9,7 @@ const yearsExperience = () => {
 
 const workItems = [
   {
-    place: 'Fluor Marine Propulsion',
+    place: 'Fluor Marine Propulsion - Software Developer',
     image: 'fmp.jpeg',
     years: `June 2016 - August 2017 | May 2017 - August 2017 | May 2018 - Present (${yearsExperience().toFixed(2)} years)`,
     location: 'Pittsburgh, PA',
@@ -20,7 +20,7 @@ const workItems = [
 
 const Experience = () => {
   return (
-    <Section title="Experience" color="gray-300">
+    <Section title="Experience" color="gray-200">
       {workItems.map((x) => (
         <WorkPlace {...x} key={x.name} />
       ))}
