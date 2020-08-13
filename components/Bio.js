@@ -1,4 +1,3 @@
-import { useState, useEffect } from 'react';
 import SocialLink from './SocialLink';
 
 const socialLinks = [
