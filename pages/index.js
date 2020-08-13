@@ -7,7 +7,7 @@ const Home = () => {
   return (
     <>
       <Head>
-        <title>Ryan Catalogna | Home</title>
+        <title>Ryan Catalogna</title>
       </Head>
       <Bio />
       <Experience />
