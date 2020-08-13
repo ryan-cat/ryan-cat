@@ -8,16 +8,8 @@ const socialLinks = [
 ];
 
 const Bio = () => {
-  const [opacity, setOpacity] = useState(0);
-
-  useEffect(() => {
-    setTimeout(() => {
-      setOpacity(100);
-    }, 200);
-  }, []);
-
   return (
-    <div className={`pt-32 font-thin text-center transition-opacity duration-1000 ease-in opacity-${opacity} z-10`} style={{ height: '100vh', width: '100vw' }}>
+    <div className="pt-32 font-thin text-center" style={{ height: '100vh', width: '100vw' }}>
       <div className="flex justify-center">
         <img
           src="https://media-exp1.licdn.com/dms/image/C4E03AQHfE7d2BeVYhQ/profile-displayphoto-shrink_200_200/0?e=1602720000&v=beta&t=mQwsBsVqxbAAkIkDY5qRv61Zwgv826fBn1cjaQX-ndM"
