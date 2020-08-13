@@ -12,7 +12,7 @@ const sections = [
 
 const Skills = () => {
   return (
-    <Section title="Skills">
+    <Section title="Skills" className="ml-20">
       {sections.map((x) => (
         <div className="pb-10" key={x.title}>
           <SkillsSection {...x} />
