@@ -7,8 +7,8 @@ const SplitView = ({ image, title, subtitle, info, body }) => {
       <div className="text-left ml-20 col-span-1 sm:col-span-2">
         <h3 className="text-3xl font-light text-blue-500">{title}</h3>
         <h4 className="text-xl font-light text-green-600">{subtitle}</h4>
-        <h5 className="text-lg">{info}</h5>
-        <p className="mt-3 text-lg">{body}</p>
+        <h5 className="text-lg font-thin">{info}</h5>
+        <p className="mt-3 text-lg font-thin">{body}</p>
       </div>
     </div>
   );
