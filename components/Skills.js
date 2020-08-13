@@ -14,8 +14,8 @@ const Skills = () => {
   return (
     <Section title="Skills">
       {sections.map((x) => (
-        <div className="pb-10">
-          <SkillsSection {...x} key={x.title} />
+        <div className="pb-10" key={x.title}>
+          <SkillsSection {...x} />
         </div>
       ))}
     </Section>

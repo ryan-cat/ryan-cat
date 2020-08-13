@@ -20,9 +20,9 @@ const workItems = [
 
 const Experience = () => {
   return (
-    <Section title="Experience" color="gray-200">
+    <Section title="Experience" style={{ backgroundColor: 'rgba(237, 242, 247)' }}>
       {workItems.map((x) => (
-        <WorkPlace {...x} key={x.name} />
+        <WorkPlace {...x} key={x.place} />
       ))}
     </Section>
   );
