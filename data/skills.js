@@ -50,6 +50,16 @@ export default [
     type: 'backend-technology'
   },
   {
+    title: 'REST',
+    image: 'rest.png',
+    type: 'backend-technology'
+  },
+  {
+    title: 'GraphQL',
+    image: 'graphql.jpg',
+    type: 'backend-technology'
+  },
+  {
     title: 'Oracle',
     image: 'oracle.jpg',
     type: 'backend-technology'
