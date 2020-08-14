@@ -13,7 +13,7 @@ const workItems = [
     image: 'fmp.jpeg',
     years: `June 2016 - August 2016 | May 2017 - August 2017 | May 2018 - Present`,
     location: 'Pittsburgh, PA',
-    description: `I haved worked two interships and am now working full-time at Fluor Marine Propulsion. For these roughly ${yearsExperience()} years, 
+    description: `I have worked two interships and am now working full-time at Fluor Marine Propulsion. For these roughly ${yearsExperience()} years, 
       my primary responsiblity is to design, implement, test and deploy full stack web applications for internal use by the enterprise using tools such as React, JavaScript,
       TypeScript, .NET Core, GraphQL, Entity Framework, Oracle, SQL Server, and Azure DevOps.`
   }

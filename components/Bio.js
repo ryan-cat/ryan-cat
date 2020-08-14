@@ -8,7 +8,7 @@ const socialLinks = [
 
 const Bio = () => {
   return (
-    <div className="pt-32 font-thin text-center" style={{ height: '100vh', width: '100vw' }}>
+    <div className="pt-32 font-thin text-center" style={{ height: '100vh', width: '100vw', minHeight: 900 }}>
       <div className="flex justify-center">
         <img
           src="https://media-exp1.licdn.com/dms/image/C4E03AQHfE7d2BeVYhQ/profile-displayphoto-shrink_200_200/0?e=1602720000&v=beta&t=mQwsBsVqxbAAkIkDY5qRv61Zwgv826fBn1cjaQX-ndM"
@@ -24,8 +24,8 @@ const Bio = () => {
       <h4 className="mt-5 text-xl">Get in contact</h4>
 
       <div className="flex justify-center mt-3">
-        {socialLinks.map((x) => (
-          <SocialLink {...x} key={x.url} className="ml-5" />
+        {socialLinks.map((x, index) => (
+          <SocialLink {...x} key={x.url} className={index != 0 ? 'ml-5' : ''} />
         ))}
       </div>
     </div>
