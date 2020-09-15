@@ -4,7 +4,7 @@ import SplitView from './SplitView';
 const yearsExperience = () => {
   const diff = Math.abs(new Date() - new Date(2017, 10, 1));
   const date = new Date(diff);
-  return Math.abs(date.getFullYear() - 1970) + date.getUTCMonth() / 12;
+  return Math.round(Math.abs(date.getFullYear() - 1970) + date.getUTCMonth() / 12);
 };
 
 const workItems = [
