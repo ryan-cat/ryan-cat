@@ -2,101 +2,126 @@ export default [
   {
     title: 'JavaScript/TypeScript',
     image: 'javascript.png',
-    type: 'language'
+    type: 'advanced'
   },
   {
     title: 'C#',
     image: 'csharp.png',
-    type: 'language'
+    type: 'advanced'
   },
   {
     title: 'Python',
     image: 'python.png',
-    type: 'language'
+    type: 'basic'
   },
   {
     title: 'React',
     image: 'react.png',
-    type: 'frontend-technology'
+    type: 'advanced'
   },
   {
     title: 'Vue',
     image: 'vue.png',
-    type: 'frontend-technology'
+    type: 'intermediate'
   },
   {
     title: 'Angular',
     image: 'angular.jpg',
-    type: 'frontend-technology'
+    type: 'basic'
   },
   {
     title: 'React Native',
     image: 'react-native.jpg',
-    type: 'frontend-technology'
+    type: 'basic'
   },
   {
     title: '.NET Core',
     image: 'net-core.png',
-    type: 'backend-technology'
+    type: 'advanced'
   },
   {
     title: 'Node.js',
     image: 'node.png',
-    type: 'backend-technology'
+    type: 'advanced'
   },
   {
     title: 'Entity Framework',
     image: 'entity-framework.png',
-    type: 'backend-technology'
+    type: 'advanced'
   },
   {
     title: 'REST',
     image: 'rest.png',
-    type: 'backend-technology'
+    type: 'intermediate'
   },
   {
     title: 'GraphQL',
     image: 'graphql.jpg',
-    type: 'backend-technology'
+    type: 'advanced'
   },
   {
     title: 'Oracle',
     image: 'oracle.jpg',
-    type: 'backend-technology'
+    type: 'intermediate'
   },
   {
     title: 'SQL Server',
     image: 'sql-server.jpg',
-    type: 'backend-technology'
+    type: 'basic'
   },
   {
     title: 'PostgreSQL',
     image: 'postgres.jpg',
-    type: 'backend-technology'
+    type: 'intermediate'
   },
   {
     title: 'AWS',
     image: 'aws.jpg',
-    type: 'cloud-technology'
+    type: 'basic'
   },
   {
     title: 'Azure',
     image: 'azure.png',
-    type: 'cloud-technology'
+    type: 'intermediate'
   },
   {
     title: 'Git',
     image: 'git.png',
-    type: 'software/tooling'
+    type: 'intermediate'
   },
   {
     title: 'Azure DevOps',
     image: 'azure-devops.jpeg',
-    type: 'software/tooling'
+    type: 'advanced'
   },
   {
     title: 'GitHub',
     image: 'github.png',
-    type: 'software/tooling'
+    type: 'advanced'
+  },
+  {
+    title: 'Terraform',
+    image: 'terraform.png',
+    type: 'advanced'
+  },
+  {
+    title: 'Docker',
+    image: 'docker.jpeg',
+    type: 'intermediate'
+  },
+  {
+    title: 'Go',
+    image: 'go.jpeg',
+    type: 'basic'
+  },
+  {
+    title: 'Kubernetes',
+    image: 'kubernetes.png',
+    type: 'basic'
+  },
+  {
+    title: 'MongoDB',
+    image: 'mongodb.png',
+    type: 'basic'
   }
 ];

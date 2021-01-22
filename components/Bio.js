@@ -11,7 +11,7 @@ const Bio = () => {
     <div className="pt-32 font-thin text-center" style={{ height: '100vh', width: '100vw', minHeight: 900 }}>
       <div className="flex justify-center">
         <img
-          src="https://media-exp1.licdn.com/dms/image/C4E03AQHfE7d2BeVYhQ/profile-displayphoto-shrink_200_200/0?e=1602720000&v=beta&t=mQwsBsVqxbAAkIkDY5qRv61Zwgv826fBn1cjaQX-ndM"
+          src="https://media-exp1.licdn.com/dms/image/C4E03AQHfE7d2BeVYhQ/profile-displayphoto-shrink_200_200/0/1567388777594?e=1616630400&v=beta&t=1OtmRNqLeQtTj1NXWRkKPLzLscy1nDwsqiWcK0Jadh0"
           className="rounded-full h-64 w-64"
         />
       </div>

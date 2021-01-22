@@ -11,6 +11,7 @@ const SkillsSection = ({ title, type }) => {
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-3 ml-10 sm:ml-20">
         {skills
           .filter((x) => x.type === type)
+          .sort((a, b) => (a.title > b.title ? 1 : -1))
           .map((x) => (
             <Skill {...x} key={x.title} />
           ))}

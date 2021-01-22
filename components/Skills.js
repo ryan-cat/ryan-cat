@@ -3,11 +3,9 @@ import Section from './Section';
 import SkillsSection from './SkillsSection';
 
 const sections = [
-  { title: 'Programming Languages', type: 'language' },
-  { title: 'Front End Technologies', type: 'frontend-technology' },
-  { title: 'Backend Technologies', type: 'backend-technology' },
-  { title: 'Cloud Technologies', type: 'cloud-technology' },
-  { title: 'Software/Tooling', type: 'software/tooling' }
+  { title: 'Advanced', type: 'advanced' },
+  { title: 'Intermediate', type: 'intermediate' },
+  { title: 'Basic', type: 'basic' }
 ];
 
 const Skills = () => {

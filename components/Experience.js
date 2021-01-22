@@ -15,7 +15,9 @@ const workItems = [
     location: 'Pittsburgh, PA',
     description: `I have worked two interships and am now working full-time at Fluor Marine Propulsion. For these roughly ${yearsExperience()} years, 
       my primary responsiblity is to design, implement, test and deploy full stack web applications for internal use by the enterprise using tools such as React, JavaScript,
-      TypeScript, .NET Core, GraphQL, Entity Framework, Oracle, SQL Server, and Azure DevOps.`
+      TypeScript, .NET Core, GraphQL, Entity Framework, Oracle, SQL Server, and Azure DevOps. More recently, I have been focused on helping our company migrate to Azure.
+      This involves strategizing for this migration as well as implementing, building, and securing Azure technologies such as Virtual Networks, Virtual Machines, Storage, Service Bus,
+      and Databases. These technologies are created and managed using Terraform.`
   }
 ];
 
