@@ -1,11 +1,11 @@
 import Section from './Section';
 import SplitView from './SplitView';
 
-const yearsExperience = () => {
-  const diff = Math.abs(new Date() - new Date(2021, 5, 14));
-  const date = new Date(diff);
-  return Math.round(Math.abs(date.getFullYear() - 1970) + date.getUTCMonth() / 12);
-};
+// const yearsExperience = () => {
+//   const diff = Math.abs(new Date() - new Date(2021, 5, 14));
+//   const date = new Date(diff);
+//   return Math.round(Math.abs(date.getFullYear() - 1970) + date.getUTCMonth() / 12);
+// };
 
 const workItems = [
   {
