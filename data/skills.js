@@ -123,5 +123,10 @@ export default [
     title: 'MongoDB',
     image: 'mongodb.png',
     type: 'basic'
+  },
+  {
+    title: 'Ruby/Rails',
+    image: 'ruby.png',
+    type: 'basic'
   }
 ];

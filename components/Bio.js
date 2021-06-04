@@ -1,7 +1,7 @@
 import SocialLink from './SocialLink';
 
 const socialLinks = [
-  { url: 'https://www.linkedin.com/in/ryan-catalogna-6b3900103/', image: 'linkedin.png' },
+  { url: 'https://www.linkedin.com/in/ryancatalogna', image: 'linkedin.png' },
   { url: 'https://twitter.com/RM_Cat412', image: 'twitter.png' },
   { url: 'https://github.com/ryan-cat', image: 'github.png' }
 ];
@@ -11,7 +11,7 @@ const Bio = () => {
     <div className="pt-32 font-thin text-center" style={{ height: '100vh', width: '100vw', minHeight: 900 }}>
       <div className="flex justify-center">
         <img
-          src="https://media-exp1.licdn.com/dms/image/C4E03AQHfE7d2BeVYhQ/profile-displayphoto-shrink_200_200/0/1567388777594?e=1616630400&v=beta&t=1OtmRNqLeQtTj1NXWRkKPLzLscy1nDwsqiWcK0Jadh0"
+          src="https://media-exp3.licdn.com/dms/image/C4E03AQHfE7d2BeVYhQ/profile-displayphoto-shrink_200_200/0/1567388777594?e=1628121600&v=beta&t=BXClztFNG8G5cOIlprs1sNvskJdSUSQFUJkgeM7ovkU"
           className="rounded-full h-64 w-64"
         />
       </div>
