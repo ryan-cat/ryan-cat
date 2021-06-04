@@ -110,11 +110,6 @@ export default [
     type: 'intermediate'
   },
   {
-    title: 'Go',
-    image: 'go.jpeg',
-    type: 'basic'
-  },
-  {
     title: 'Kubernetes',
     image: 'kubernetes.png',
     type: 'basic'
