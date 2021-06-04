@@ -20,7 +20,7 @@ const workItems = [
     image: 'fmp.jpeg',
     years: `June 2016 - August 2016 | May 2017 - August 2017 | May 2018 - June 2021`,
     location: 'Pittsburgh, PA',
-    description: `I had worked two interships and then worked full-time at Fluor Marine Propulsion. For these three and a half years, 
+    description: `I had worked two interships and then worked full-time at Fluor Marine Propulsion. For those three and a half years, 
       my primary responsiblity was to design, implement, test and deploy full stack web applications for internal use by the enterprise using tools such as React, JavaScript,
       TypeScript, .NET Core, GraphQL, Entity Framework, Oracle, SQL Server, and Azure DevOps. Additionally, I had helped the company migrate to Azure.
       That involved strategizing for the migration as well as implementing, building, and securing Azure technologies such as Virtual Networks, Virtual Machines, Storage, Service Bus,
